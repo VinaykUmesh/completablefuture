@@ -4,17 +4,17 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.time.LocalDate;
-
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 public class Employee {
-    private Integer employeeId;
+    private String employeeId;
     private String firstName;
     private String lastName;
     private String email;
-    private String department;
-    private Integer salary;
-    private String dateOfJoining;
+    private String gender;
+    private String newJoiner;
+    private String learningPending;
+    private int salary;
+    private int rating;
 }
